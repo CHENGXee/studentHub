@@ -90,13 +90,19 @@ export class UserService extends Service {
             message: "",
             body: undefined
         }
-        try {
-            const res = await studentsModel.deleteOne({ _id: id })
-            resp.message = "Sucess";
-            resp.body = res;
-        } catch (error) {
-            resp.message = error as string;
-            resp.code = 500;
+        const user = await studentsModel.findById(id);
+        if (user) {
+            try {
+                const res = await studentsModel.deleteOne({ _id: id })
+                resp.message = "Sucess";
+                resp.body = res;
+            } catch (error) {
+                resp.message = "server error";
+                resp.code = 500;
+            }
+        } else {
+            resp.code = 404;
+            resp.message = "user not found";
         }
         return resp;
     }
