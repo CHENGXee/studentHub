@@ -166,6 +166,6 @@
 ## 架構圖
 ![image](https://github.com/CHENGXee/studentHub/blob/main/%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
 ## 流程圖
-![image](https://github.com/CHENGXee/studentHub/blob/main/%E6%B5%81%E7%A8%8B%E5%9C%96.png?raw=true)
+![image](https://raw.githubusercontent.com/CHENGXee/studentHub/refs/heads/main/%E6%B5%81%E7%A8%8B%E5%9C%96.png?raw=true)
 ## demo影片
 連結:https://youtu.be/dNt2QlfJjdg?si=yq93g26LyXPT5ujL
