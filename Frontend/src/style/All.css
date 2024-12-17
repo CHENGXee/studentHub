@@ -1,0 +1,58 @@
+ input {
+     margin-bottom: 20px;
+ }
+
+ .boxAdd {
+     background-color: #79797963;
+     width: 500px;
+     height: 500px;
+     justify-content: center;
+     display: flex;
+     margin: 10px;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 50px;
+ }
+
+ .boxDelete {
+     background-color: #79797963;
+     width: 400px;
+     height: 400px;
+     justify-content: center;
+     display: flex;
+     margin: 10px;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 50px;
+ }
+
+ .boxFind {
+     background-color: #79797963;
+     width: 500px;
+     height: 500px;
+     justify-content: center;
+     display: flex;
+     margin: 10px;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 50px;
+ }
+
+ .boxUpdate {
+     background-color: #79797963;
+     width: 400px;
+     height: 400px;
+     justify-content: center;
+     display: flex;
+     margin: 10px;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 50px;
+ }
+ .left{
+    text-align:left;
+ }
+
+ html {
+     height: 100vh;
+ }

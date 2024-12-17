@@ -1,0 +1,89 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #212121;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container .student {
+  border: solid 1px #212121;
+  border-radius: .3rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1% 2%;
+}
+
+
+.container .student h1 {
+  font-size: 1.25rem;
+}
+.container p{
+  margin:0px;
+}
+.btn a,
+.btn a:focus {
+  position: relative;
+  min-width: 200px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 4em;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  padding: 10px 20px;
+}
+
+.btn a:hover {
+  background-color: #3A3A3A;
+  color: white;
+  transition-duration: 0.1s;
+}
+
+.btn a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+  border-radius: 4em;
+}
+
+.btn a:active:after {
+  opacity: 1;
+  transition: 0s;
+  box-shadow: 0 0 0 0 white;
+}
+
+.btn a:active {
+  top: 1px;
+}
+input{
+  padding: 10px;
+  
+  border : solid .1px black;
+  border-radius: 35px;
+  background-color :  #fff;
+  
+  outline:none;
+}
